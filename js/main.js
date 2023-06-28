@@ -10,22 +10,21 @@ addEventListener("DOMContentLoaded", ()=>{
                 headers:{"Content-Type": "Application/json"},
                 body:JSON.stringify(
                     {
-                        id: 1,
-                        nom: "Pepito",
-                        ape1: "Campus",
-                        ape2: "Zona franca",
-                        dni: 33333
-                    }
+                        nom: "Yepeto",
+                        apll:"OpenIA",
+                        fecha: "2023-01-15",
+                        idreg: 1
+                      }
                 )
             };
-            let data = await (await fetch("http://localhost/ApolT01-024/PruebaPDOPHPtoDB_CRUD/uploads/pais", config)).text();
+            let data = await (await fetch("http://localhost/ApolT01-024/PruebaPDOPHPtoDB_CRUD/uploads/campers", config)).text();
             console.log(data);
         }else if(opc=="listar"){
             let config = {
                 method:"GET",
                 headers:{"Content-Type": "Application/json"},
             };
-            let data = await (await fetch("http://localhost/ApolT01-024/PruebaPDOPHPtoDB_CRUD/uploads/pais", config)).json();
+            let data = await (await fetch("http://localhost/ApolT01-024/PruebaPDOPHPtoDB_CRUD/uploads/campers", config)).json();
             console.log(data);
         }
     })
