@@ -31,13 +31,13 @@ A continuación se muestra una descripción de las rutas y métodos disponibles 
 ## Creación de la base de Datos
 Se nos pidió la creación de la siguiente base de datos.
 
-![Screenshot from 2023-06-28 16-31-36](/var/www/html/ApolT01-024/PruebaPDOPHPtoDB_CRUD/img/Screenshot from 2023-06-28 16-31-36.png)
+![Screenshot from 2023-06-28 16-31-36](/img/Screenshot from 2023-06-28 16-31-36.png)
 
-![Screenshot from 2023-06-28 16-32-01](/var/www/html/ApolT01-024/PruebaPDOPHPtoDB_CRUD/img/Screenshot from 2023-06-28 16-32-01.png)
+![Screenshot from 2023-06-28 16-32-01](/img/Screenshot from 2023-06-28 16-32-01.png)
 
-![Screenshot from 2023-06-28 16-32-34](/var/www/html/ApolT01-024/PruebaPDOPHPtoDB_CRUD/img/Screenshot from 2023-06-28 16-32-34.png)
+![Screenshot from 2023-06-28 16-32-34](/img/Screenshot from 2023-06-28 16-32-34.png)
 
-![Screenshot from 2023-06-28 16-32-49](/var/www/html/ApolT01-024/PruebaPDOPHPtoDB_CRUD/img/Screenshot from 2023-06-28 16-32-49.png)
+![Screenshot from 2023-06-28 16-32-49](/img/Screenshot from 2023-06-28 16-32-49.png)
 
 
 
@@ -47,7 +47,7 @@ Construimos la base de datos por consola de la siguiente manera:
 
 Finalmente quedó así vista desde phpMyAdmin:
 
-![Screenshot from 2023-06-28 16-33-29](/var/www/html/ApolT01-024/PruebaPDOPHPtoDB_CRUD/img/Screenshot from 2023-06-28 16-33-29.png)
+![Screenshot from 2023-06-28 16-33-29](/img/Screenshot from 2023-06-28 16-33-29.png)
 
 ## Contribución
 
