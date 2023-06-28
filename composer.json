@@ -4,7 +4,10 @@
         "psr-4": {
             "App\\":[
                 "./scripts/db",
-                "./scripts/pais"
+                "./scripts/pais",
+                "./scripts/departamento",
+                "./scripts/region",
+                "./scripts/campers"
             ]
         }
     },

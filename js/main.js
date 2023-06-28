@@ -18,14 +18,14 @@ addEventListener("DOMContentLoaded", ()=>{
                     }
                 )
             };
-            let data = await (await fetch("http://localhost/SkylAb-156/NewMethodBDPDO/uploads/campers", config)).text();
+            let data = await (await fetch("http://localhost/ApolT01-024/PruebaPDOPHPtoDB_CRUD/uploads/pais", config)).text();
             console.log(data);
         }else if(opc=="listar"){
             let config = {
                 method:"GET",
                 headers:{"Content-Type": "Application/json"},
             };
-            let data = await (await fetch("http://localhost/SkylAb-156/NewMethodBDPDO/uploads/campers", config)).json();
+            let data = await (await fetch("http://localhost/ApolT01-024/PruebaPDOPHPtoDB_CRUD/uploads/pais", config)).json();
             console.log(data);
         }
     })

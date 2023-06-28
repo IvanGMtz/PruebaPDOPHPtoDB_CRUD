@@ -11,8 +11,22 @@
         $router->delete('/', function() { 
             $cox = new \App\connect();
             $_DATA = json_decode(file_get_contents("php://input"));
-            $res = $cox->con->prepare("DELETE FROM pais WHERE DNI=:dni");
-            $res->bindParam(':dni', $_DATA->dni);
+            $res = $cox->con->prepare("DELETE FROM pais WHERE idPais=:id");
+            $res->bindParam(':id', $_DATA->id);
+            $res->execute();
+            print_r($res->rowCount());
+        });
+    });
+
+    $router->mount('/departamento', function() use($router){
+        $router->post('/', '\App\crud2@postAll');
+        $router->put('/', '\App\crud2@putAll');
+        $router->get("/", '\App\crud2@getAll');
+        $router->delete('/', function() { 
+            $cox = new \App\connect();
+            $_DATA = json_decode(file_get_contents("php://input"));
+            $res = $cox->con->prepare("DELETE FROM departamento WHERE idDep=:id");
+            $res->bindParam(':id', $_DATA->id);
             $res->execute();
             print_r($res->rowCount());
         });
