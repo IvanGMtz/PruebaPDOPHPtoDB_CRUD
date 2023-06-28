@@ -31,14 +31,13 @@ A continuación se muestra una descripción de las rutas y métodos disponibles 
 ## Creación de la base de Datos
 Se nos pidió la creación de la siguiente base de datos.
 
-![Screenshot from 2023-06-28 16-31-36](/img/Screenshot from 2023-06-28 16-31-36.png)
+<img src="./img/Screenshot from 2023-06-28 16-31-36.png" alt="" style="zoom:33%;" />
 
-![Screenshot from 2023-06-28 16-32-01](/img/Screenshot from 2023-06-28 16-32-01.png)
+<img src="./img/Screenshot from 2023-06-28 16-32-01.png" alt="" style="zoom:33%;" />
 
-![Screenshot from 2023-06-28 16-32-34](/img/Screenshot from 2023-06-28 16-32-34.png)
+<img src="./img/Screenshot from 2023-06-28 16-32-34.png" alt="" style="zoom:33%;" />
 
-![Screenshot from 2023-06-28 16-32-49](/img/Screenshot from 2023-06-28 16-32-49.png)
-
+<img src="./img/Screenshot from 2023-06-28 16-32-49.png" alt="" style="zoom:33%;" />
 
 
 **Nota:** La base de datos tiene errores en el campo nombrePais de la tabla pais en el tipo de variable, igualmente el campo idCamper de la tabla, se hizo la correción del tipo de variable nombrePais de int a varchar e idCamper de varchar a int.
@@ -47,7 +46,7 @@ Construimos la base de datos por consola de la siguiente manera:
 
 Finalmente quedó así vista desde phpMyAdmin:
 
-![Screenshot from 2023-06-28 16-33-29](/img/Screenshot from 2023-06-28 16-33-29.png)
+<img src="./img/Screenshot from 2023-06-28 16-33-29.png" alt="" style="zoom:33%;" />
 
 ## Contribución
 
